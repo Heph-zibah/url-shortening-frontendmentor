@@ -1,0 +1,25 @@
+.btn {
+    margin-right: 20px;
+    border: none;
+    background: var(--cyan);
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.btn:hover {
+    opacity: 50%;
+}
+
+.login {
+    margin-right: 20px;
+    border: none;
+    background: #fff;
+    font-weight: 700;
+    color: var( --grayishViolet);
+}
+
+.login:hover {
+    color: var(--veryDarkViolet);
+}

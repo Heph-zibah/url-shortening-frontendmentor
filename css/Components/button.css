@@ -18,8 +18,36 @@
     background: #fff;
     font-weight: 700;
     color: var( --grayishViolet);
+    font-size: var(--fontSizePrimary);
 }
 
 .login:hover {
     color: var(--veryDarkViolet);
+}
+
+.mobile--login {
+    border: none;
+    color: var( --grayishViolet);
+    font-weight: 700;
+    background: var(--darkViolet);
+    font-size: var(--fontSizePrimary);
+    margin-bottom: 40px;
+}
+
+.mobile--login:hover {
+    color: var(--cyan);
+}
+
+.mobile--btn {
+    border: none;
+    background: var(--cyan);
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 700;
+    width: 100%;
+}
+
+.mobile--btn:hover {
+    opacity: 80%;
 }

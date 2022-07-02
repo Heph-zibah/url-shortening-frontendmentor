@@ -25,6 +25,62 @@ header {
     display: none;
 }
 
+#mobile--modal {
+    display: none;
+}
+
+.mobile--menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--darkViolet);
+}
+
+.mobile--header {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 30px;
+}
+
+.mobile--nav {
+    border-radius: 10px;
+    padding-top: 50px;
+    border-bottom: 1px solid var(--grayishViolet);
+}
+
+.mobile--lists {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.mobile--item {
+    margin-bottom: 40px;
+}
+
+.mobile--item a {
+    color: var(--grayishViolet);
+    font-weight: 700;
+    font-size: var(--fontSizePrimary);
+}
+
+.mobile--item a:hover {
+    color: var(--cyan);
+}
+
+.mobile--btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
 @media (min-width:768px) {
     header {
         padding: 50px 70px;

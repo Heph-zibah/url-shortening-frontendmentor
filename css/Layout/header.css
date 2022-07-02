@@ -5,6 +5,7 @@ header {
     color: var(--gray);
     padding: 50px 30px;
     font-size: var(--fontSizePrimary);
+    background: #fff;
 }
 
 .header--leftSide {

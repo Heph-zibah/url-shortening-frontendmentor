@@ -1,3 +1,4 @@
+// MOBILE RESPONSIVENESS
 const menuBar = document.querySelector('.menuBar');
 const closeBar = document.querySelector('.close--bar');
 const mobileMenu = document.querySelector('#mobile--modal');
@@ -19,4 +20,10 @@ window.addEventListener('click', (e) => {
     if (e.target === mobileMenu) {
         mobileMenu.style.display = 'none';
     }
+});
+
+const submitBtn = documment.querySelector('#shorten__form');
+submitBtn.addEventListener('submit', (e) => {
+    e.preventdefault();
+    console.log('hello there');
 });

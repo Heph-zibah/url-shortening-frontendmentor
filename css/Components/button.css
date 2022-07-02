@@ -51,3 +51,14 @@
 .mobile--btn:hover {
     opacity: 80%;
 }
+
+.shorten__btn {
+    border: none;
+    outline: 0;
+    background: var(--cyan);
+    padding: 15px 20px;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 700;
+    width: 100%;
+}

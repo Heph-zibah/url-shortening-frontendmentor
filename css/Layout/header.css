@@ -47,7 +47,7 @@ header {
 
 .mobile--nav {
     border-radius: 10px;
-    padding-top: 50px;
+    padding-top: 40px;
     border-bottom: 1px solid var(--grayishViolet);
 }
 
@@ -60,7 +60,7 @@ header {
 }
 
 .mobile--item {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .mobile--item a {
@@ -78,7 +78,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 50px;
+    padding: 40px;
 }
 
 @media (min-width:768px) {
@@ -87,6 +87,12 @@ header {
     }
     .header__btn {
         display: block;
+    }
+    .mobile--header {
+        padding: 50px 70px;
+    }
+    .mobile--menu {
+        height: 100%;
     }
 }
 
@@ -124,7 +130,7 @@ header {
     }
 }
 
-@media (min-width:1400px) {
+@media (min-width:1440px) {
     header {
         padding: 50px 150px;
     }

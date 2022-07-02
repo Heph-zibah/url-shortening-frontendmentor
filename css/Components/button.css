@@ -31,7 +31,7 @@
     font-weight: 700;
     background: var(--darkViolet);
     font-size: var(--fontSizePrimary);
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .mobile--login:hover {

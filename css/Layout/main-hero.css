@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    /* padding-top: 15px; */
 }
 
 .hero__img {
@@ -18,21 +17,14 @@
     padding: 50px 30px;
 }
 
-.hero__body h1 {
-    color: var(--veryDarkViolet);
-}
-
 .hero__body p {
     margin: 20px 0;
     padding: 0 20px;
-    color: var(--grayishViolet);
-    font-weight: 300;
-    font-size: var(--fontSizePrimary);
 }
 
 @media (min-width:768px) {
     .hero__body {
-        padding: 50px 90px;
+        padding: 50px 70px;
     }
 }
 

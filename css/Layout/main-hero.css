@@ -1,4 +1,9 @@
+main {
+    background: var(--gray);
+}
+
 .hero__section {
+    background: #fff;
     display: flex;
     flex-direction: column;
     text-align: center;

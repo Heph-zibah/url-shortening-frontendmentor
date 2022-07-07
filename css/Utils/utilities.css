@@ -28,6 +28,7 @@
 
 .shorten__form--div {
     display: block;
+    position: relative;
 }
 
 .shorten__form--div input {
@@ -35,11 +36,29 @@
     border-radius: 6px;
     margin-bottom: 30px;
     width: 100%;
+    border: 0;
+}
+
+.shorten__form--div input.error {
+    border: 2px solid var(--red);
+    color: var(--red);
+}
+
+.shorten__form--div input::placeholder.error {
+    color: var(--red);
 }
 
 .shorten__form--div input::placeholder {
     color: var(--grayishViolet);
     font-size: var(--fontSizePrimary);
+}
+
+.error-msg {
+    color: var(--red);
+    font-style: italic;
+    margin-top: 20px;
+    position: absolute;
+    top: 35%;
 }
 
 @media (min-width:768px) {
@@ -59,6 +78,12 @@
         background-repeat: no-repeat;
         background-color: var(--darkViolet);
         padding: 80px 90px;
+    }
+    .error-msg {
+        color: var(--red);
+        font-style: italic;
+        margin-top: 20px;
+        position: static;
     }
     #shorten__form {
         background: url("/img/bg-shorten-desktop.svg");

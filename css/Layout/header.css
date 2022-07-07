@@ -72,6 +72,7 @@ header {
 
 .mobile--item a:hover {
     color: var(--cyan);
+    cursor: pointer;
 }
 
 .mobile--btns {
@@ -106,6 +107,7 @@ header {
     }
     .menuBar {
         display: none;
+        cursor: pointer;
     }
     .nav__menu {
         display: flex;
@@ -122,6 +124,7 @@ header {
     }
     .nav__list a:hover {
         color: var(--veryDarkViolet);
+        cursor: pointer;
     }
 }
 

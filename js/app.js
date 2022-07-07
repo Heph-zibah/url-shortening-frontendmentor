@@ -22,8 +22,20 @@ window.addEventListener('click', (e) => {
     }
 });
 
-const submitBtn = documment.querySelector('#shorten__form');
+const submitBtn = document.querySelector('#shorten__form');
+const errorMsg = document.querySelector('.error-msg');
+const input = document.querySelector('#shorten-url');
+
+
+function errMsg() {
+    if (input.value === '') {
+        errorMsg.innerText = 'Please add a link';
+        input.classList.add('error');
+    }
+}
+
+
 submitBtn.addEventListener('submit', (e) => {
-    e.preventdefault();
-    console.log('hello there');
+    e.preventDefault();
+    errMsg();
 });
